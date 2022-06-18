@@ -2,13 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style media="screen">
+    @media only screen and (max-width: 600px) {
+      #containerP{
+        flex-direction: column;
+      }
+    .project-tile{
+      margin: 2% auto;
+      width: 80%;
+    }
+    }
+    </style>
   </head>
 
   <body>
-    <h1> Hello world, we are software developers </h1>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <nav id ="navbar">
+      <a href="#welcome-section">Home</a>
+      <a href="#projects"> Projects</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  <div id="welcome-section">
+     <h1> We are Juhar and Gabriel</h1>
+  </div>
+
+  <div id="projects">
+    <h2>THESE ARE MY PROJECTSS</h2>
+    <div id="containerP">
+      <div class="project-tile">
+        <a href="#">project1</a>
+      </div>
+      <div class="project-tile">
+        <a href="#">project2</a>
+      </div>
+      <div class="project-tile">
+        <a href="#">project3</a>
+      </div>
+
+    </div>
+
+
+  </div>
+  <div id="contacts">
+    <h2>Let's work together</h2>
+    <a href="https://github.com/juaryimami/" target="_blank" id="profile-link">My github account </a>
+  </div>
+
 
     <!--
 
