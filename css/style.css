@@ -27,30 +27,38 @@ a{
 a:hover{
   background-color: rgba(200,100,10,0.5);
 }
-a:visited,a:link,a:active{
+a:visited,
+a:link,
+a:active
+{
   color: white;
 }
-#welcome-section{
+#welcome-section
+{
   height: 100%;
   background-color: gray;
   display: flex;
   justify-content:center;
   align-items: center;
 }
-#projects{
+#projects
+{
   background-color: rgb(100,70,100);
   height:100%;
 }
-#projects h2{
+#projects h2
+{
   color: white;
   text-align: center;
   padding: 40px 0;
 }
-#containerP{
+#containerP
+{
   display: flex;
   justify-content: space-around;
 }
-.project-tile{
+.project-tile
+{
   width:20%;
   background-color: gray;
   height:100px;
@@ -59,7 +67,8 @@ a:visited,a:link,a:active{
   align-items:flex-end;
 
 }
-#contacts{
+#contacts
+{
   background-color: gray;
   height: 50%;
   display: flex;
@@ -67,14 +76,18 @@ a:visited,a:link,a:active{
   justify-content:center;
   align-items: center;
 }
-#contacts a{
+#contacts a
+{
   display: block;
 }
-@media only screen and (max-width: 600px) {
-  #containerP{
+@media only screen and (max-width: 600px)
+{
+  #containerP
+  {
     flex-direction: column;
   }
-.project-tile{
+.project-tile
+{
   margin: 2% auto;
   width: 80%;
 }
